@@ -1,0 +1,12 @@
+{
+  "name": "learnthencode-36-lab-react-components-and-jsx",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "learnthencode-test run",
+    "test:watch": "learnthencode-test run --watch"
+  },
+  "devDependencies": {
+    "learnthencode-testing": "github:learnthencode/learnthencode-testing#v1.3.0"
+  }
+}

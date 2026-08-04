@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "lesson": "02-react-components-and-jsx",
+  "lab": "react-components-and-jsx",
+  "requirements": [
+    {
+      "id": "react-001",
+      "name": "App component exists",
+      "description": "Create and export a functional App component.",
+      "points": 5,
+      "hint": "Export a default function named App.",
+      "check": {
+        "type": "react",
+        "subtype": "component",
+        "component": "starter/src/App.jsx"
+      }
+    },
+    {
+      "id": "react-002",
+      "name": "App renders JSX",
+      "description": "The App component should return JSX.",
+      "points": 5,
+      "hint": "Return a JSX element instead of a string.",
+      "check": {
+        "type": "react",
+        "subtype": "renders",
+        "component": "starter/src/App.jsx"
+      }
+    },
+    {
+      "id": "react-003",
+      "name": "Render a heading",
+      "description": "Render an h1 containing 'React Components'.",
+      "points": 10,
+      "hint": "Use an <h1> element.",
+      "check": {
+        "type": "react",
+        "subtype": "hasHeading",
+        "component": "starter/src/App.jsx",
+        "expect": {
+          "text": "React Components"
+        }
+      }
+    },
+    {
+      "id": "react-004",
+      "name": "Render JSX paragraph",
+      "description": "Display 'JSX lets you describe user interfaces.'",
+      "points": 10,
+      "hint": "Render a paragraph beneath the heading.",
+      "check": {
+        "type": "react",
+        "subtype": "hasText",
+        "component": "starter/src/App.jsx",
+        "text": "JSX lets you describe user interfaces."
+      }
+    },
+    {
+      "id": "react-005",
+      "name": "Create Greeting component",
+      "description": "Create a Greeting component inside starter/src/components.",
+      "points": 10,
+      "hint": "Create Greeting.jsx and export a default function.",
+      "check": {
+        "type": "react",
+        "subtype": "component",
+        "component": "starter/src/components/Greeting.jsx"
+      }
+    },
+    {
+      "id": "react-006",
+      "name": "Render Greeting component",
+      "description": "The App component renders the Greeting component.",
+      "points": 10,
+      "hint": "Import Greeting into App and render it.",
+      "check": {
+        "type": "react",
+        "subtype": "hasText",
+        "component": "starter/src/App.jsx",
+        "text": "Welcome to React!"
+      }
+    },
+    {
+      "id": "react-007",
+      "name": "Project depends on React",
+      "description": "Install react and react-dom.",
+      "points": 5,
+      "hint": "Run npm install react react-dom.",
+      "check": {
+        "type": "react",
+        "subtype": "dependency",
+        "dependencies": [
+          "react",
+          "react-dom"
+        ]
+      }
+    }
+  ]
+}

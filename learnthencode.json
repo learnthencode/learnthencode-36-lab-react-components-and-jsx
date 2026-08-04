@@ -1,0 +1,10 @@
+{
+  "id": "react-components-and-jsx",
+  "title": "React Components and JSX",
+  "language": "javascript",
+  "entry": "starter/src/App.jsx",
+  "provider": "local",
+  "tests": "./private-tests",
+  "lesson": "lesson-02",
+  "version": "1.0.0"
+}
